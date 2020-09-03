@@ -30,6 +30,7 @@ https://flickity.metafizzy.co
 .flickity-slider img {
   opacity: 0;
   width: 100%;
+  min-height: 150px;
 }
 
 .flickity-slider .is-selected {

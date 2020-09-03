@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 15px auto;
+  margin: 20px auto;
   display: flex;
 `;
 
@@ -59,6 +59,7 @@ export const Content = styled.div`
 
   h1 {
       text-align: left;
+
       font-weight: 500;
       font-size: 18px;
       line-height: 22px;

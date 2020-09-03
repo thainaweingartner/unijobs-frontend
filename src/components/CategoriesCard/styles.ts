@@ -9,14 +9,15 @@ export const Container = styled.div`
   }
 `;
 export const Content = styled.div`
+
   a {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
