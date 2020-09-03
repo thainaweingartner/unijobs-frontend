@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 import { FiChevronLeft } from 'react-icons/fi';
 
 import { Header } from './styles';
-import logo from '../../assets/logo.svg';
+import logo from '../../../assets/logo.svg';
 
 interface BannerProps {
   backIcon: boolean;
@@ -28,6 +28,10 @@ const Banner: React.FC<BannerProps> = ({ backIcon }) => {
       {renderBackIcon(backIcon)}
       <img src={logo} alt="Logo UniJobs" />
       {/* <input placeholder="Pesquise um item..." /> */}
+      <div>
+        <a href="/RegisterUser">Quero Vender</a>
+        <a href="/Login">Login</a>
+      </div>
     </Header>
   );
 };

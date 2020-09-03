@@ -15,10 +15,6 @@ export const ContainerRoot = styled.div`
     grid-area: footer;
   }
 
-  Sidebar {
-    grid-area: sidebar;
-  }
-
   @media (max-width: 800px) {
     grid-template-columns: 1fr;
     grid-template-areas:

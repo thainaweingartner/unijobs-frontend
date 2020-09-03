@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { IoMdCart, IoMdBuild } from 'react-icons/io';
-import Banner from '../../components/Banner';
+import Banner from '../../components/Banner/Logout';
 import Slider from '../../components/Slider';
 import HeaderSlider from '../../components/HeaderSlider';
 import CategoriesCard from '../../components/CategoriesCard';

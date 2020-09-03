@@ -6,12 +6,12 @@ import CurrencyInput from 'react-currency-input';
 import api from '../../services/api';
 
 import {ContainerRoot, Formarea, Title, Formbox, Buttons, Flex, CategoriaArea, PrecoArea, InputArea} from './styles';
-import Banner from '../../components/Banner';
+import BannerLogin from '../../components/Banner/Login';
+import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
 import Input from '../../components/Input';
 import Select from '../../components/Select';
 import TextArea from '../../components/TextArea';
-import Sidebar from '../../components/Sidebar';
 import Button from '../../components/Button';
 
 const RegisterProduct: React.FC = () => {
@@ -50,7 +50,7 @@ const RegisterProduct: React.FC = () => {
   return(
     <>
     <div style={{width:'100vw'}}>
-      <Banner backIcon={true}/>
+      <BannerLogin backIcon={true}/>
       <ContainerRoot>
         <Sidebar />
         <Form onSubmit={handleSubmit} >

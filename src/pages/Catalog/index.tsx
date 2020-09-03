@@ -6,7 +6,7 @@ import api from '../../services/api';
 
 import {Container, Content, Pages} from './styles';
 
-import Banner from '../../components/Banner';
+import Banner from '../../components/Banner/Logout';
 import Footer from '../../components/Footer';
 
 interface Product {

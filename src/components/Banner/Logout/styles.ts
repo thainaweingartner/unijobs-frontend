@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
-import searchIcon from '../../assets/search.svg';
+import searchIcon from '../../../assets/search.svg';
 
 export const Header = styled.header`
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding: 0 35px;
+  justify-content: space-between;
 
   flex-wrap: wrap;
   align-content: center;
@@ -14,6 +15,13 @@ export const Header = styled.header`
   height: 60px;
 
   background: #0e346a;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin: 0 15px;
+  }
 
   img {
     display: flex;

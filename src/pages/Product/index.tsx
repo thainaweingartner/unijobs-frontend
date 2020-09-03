@@ -12,8 +12,9 @@ import {
   Price,
 } from './styles';
 
-import Banner from '../../components/Banner';
+import Banner from '../../components/Banner/Logout';
 import Footer from '../../components/Footer';
+
 
 import FakeItem from '../../services/product';
 import api from '../../services/api';

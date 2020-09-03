@@ -4,11 +4,11 @@ import {IoMdCall,IoMdLock, IoMdPeople, IoIosMail} from 'react-icons/io';
 import * as Yup from 'yup';
 
 import {ContainerRoot, FormGrid, Formbox, Buttons, Foot, InputBox} from './styles';
-import Banner from '../../components/Banner';
+import BannerLogin from '../../components/Banner/Login';
 import Input from '../../components/Input';
 import Footer from '../../components/Footer';
-import Menu from '../../components/Sidebar';
 import Button from '../../components/Button';
+import Sidebar from '../../components/Sidebar';
 
 const Profile: React.FC = () => {
   const handleCreateProfile = useCallback(async(data)=>{
@@ -46,9 +46,9 @@ const Profile: React.FC = () => {
   return(
     <>
     <div style={{width:'100vw', height:'100vh'}}>
-      <Banner backIcon={true}/>
+      <BannerLogin backIcon={true}/>
       <ContainerRoot>
-        <Menu />
+        <Sidebar />
         <Form onSubmit={handleSubmit} >
           <FormGrid>
             <Formbox >
