@@ -65,4 +65,14 @@ export const Header = styled.header`
       color: #0e346a;
     }
   }
+
+  @media(max-width:470px){
+  justify-content: center;
+  padding: 15px 15px;
+  height: fit-content;
+
+    img{
+      margin-bottom: 20px;
+    }
+  }
 `;

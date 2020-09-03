@@ -44,9 +44,11 @@ const Slider: React.FC = () => {
           <Content>
             <Link to={`/item/${product._id}`} key={product._id}>
               <img src={product.image[1]} alt="Produto" />
-              <h1>{product.title}</h1>
-              <strong>R$ {product.price}</strong>
-              <span>{product.type}</span>
+              <div>
+                <h1>{product.title}</h1>
+                <strong>R$ {product.price}</strong>
+                <span>{product.type}</span>
+              </div>
             </Link>
           </Content>
         </Container>

@@ -29,6 +29,7 @@ https://flickity.metafizzy.co
 
 .flickity-slider img {
   opacity: 0;
+  width: 100%;
 }
 
 .flickity-slider .is-selected {
@@ -43,7 +44,6 @@ https://flickity.metafizzy.co
 
 .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
